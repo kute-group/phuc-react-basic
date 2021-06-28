@@ -1,12 +1,10 @@
-import { BrowserRouter as Router, Switch, Route, Link } from "react-router-dom";
-import Header from "../../components/Header";
+import WrapperApp from "../../components/WrapperApp";
 
 function Home() {
   return (
-    <div>
-      <Header />
-      <div className="content-home"></div>
-    </div>
+    <WrapperApp>
+      <p>home</p>
+    </WrapperApp>
   );
 }
 

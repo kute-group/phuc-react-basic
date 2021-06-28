@@ -1,0 +1,34 @@
+.page-title {
+    text-transform: uppercase;
+    color: #d246b8;
+    font-weight: bold;
+}
+.border-box {
+    position: relative;
+    min-width: 255px;
+    border: 1px solid #ccd0d4;
+    box-shadow: 0 1px 1px rgb(0 0 0 / 4%);
+    background: #fff;
+    margin-bottom: 10px;
+    padding-bottom: 5px;
+}
+.border-box h2 {
+    font-size: 14px;
+    padding: 8px 12px;
+    margin: 0;
+    line-height: 1.4;
+    border-bottom: 1px solid #ccd0d4;
+    display: block;
+    text-align: left;
+    font-weight: bold;
+    cursor: move;
+} 
+.border-box .ant-select {
+    padding: 12px;
+    width: 100%;
+}
+.border-box .sidebar {
+    padding: 12px;
+    width: 100%;
+    overflow: hidden;
+}
